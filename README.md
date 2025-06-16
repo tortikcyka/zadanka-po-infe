@@ -3,10 +3,10 @@ console.log("hola es mi trabajo");
 let answer = "";
 
 // Крок 1: Вимагаємо "!hi!"
-while (answer !== "!hi!") {
-  answer = prompt("Write '!hi!' to continue");
-  if (answer !== "!hi!") {
-    console.log("You didn't write '!hi!'. Please try again.");
+while (answer !== "hi") {
+  answer = prompt("Write 'hi' to continue");
+  if (answer !== "hi") {
+    console.log("You didn't write 'hi'. Please try again.");
   }
 }
 
